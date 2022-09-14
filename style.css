@@ -23,3 +23,18 @@ body {
     background-size: cover;
     position: relative;
 }
+
+.logo-container {
+    background-image: url(./img/odin-lined.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 150px;
+    background-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 30% 50%;
+}
