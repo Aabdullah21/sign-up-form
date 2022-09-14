@@ -10,3 +10,16 @@
     --button-color: #596D48;
     --default-border: #E5E7EB;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.image-container {
+    background-image: url(./img/green-background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
