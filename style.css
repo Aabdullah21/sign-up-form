@@ -117,6 +117,26 @@ body {
     border: 1px solid var(--default-border);
 }
 
+.form-control input:focus {
+    outline: 1px solid blue;
+
+}
+
 .form-control label {
     font-size: 0.8rem;
+}
+
+button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 12px 36px;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+}
+
+.log-in {
+    color: var(--button-color);
+    text-decoration: none;
+    font-weight: bold;
 }
