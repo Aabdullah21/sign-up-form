@@ -21,6 +21,7 @@ body {
     grid-template-columns: 1fr 2fr;
     height: 100vh;
     font-family: 'Roboto', 'sans-serif';
+    background-color: #cbd5e1;
 }
 
 .image-container {
@@ -66,4 +67,56 @@ body {
 
 .credit a {
     color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-content>* {
+    margin-left: 50px;
+}
+
+.main-content .description {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 700px;
+}
+
+.form-container {
+    background-color: white;
+    margin-left: 0;
+    padding: 15px 15px 30px 50px;
+}
+
+.form-container h2 {
+    margin-bottom: 30px;
+}
+
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.form-container .form-control {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.form-control input {
+
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--default-border);
+}
+
+.form-control label {
+    font-size: 0.8rem;
 }
